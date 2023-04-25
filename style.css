@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: system-ui;
+}
+
+body{
+	filter: mayfrair;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('./107270-Interstellar_movie.jpg');
+}
+
+a{
+	color: white;
+}
+.menu{
+	max-width: 1400px;
+	padding: 3%;
+
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 60px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+}
+nav ul li a{
+	padding: 10px 20px;
+	
+	text-decoration: none;
+}
+
+.logo{
+	color: white;
+}
+
+article{
+	margin: 50px;
+	font-size: 50px;
+	color: white;
+}
+
+article p{
+	padding-bottom: 10px;
+	color: hsl(101, 0%, 90%);
+	font-size: 23px;
+}
+h6{
+	transition: 0,2s;
+	font-size: 20px;
+}
+.botao{
+	width: 1px;
+	background-color: white;
+}
+
+h6:hover{
+	color: hsl(241, 100%, 89%);
+}
+
+
